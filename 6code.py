@@ -8,5 +8,6 @@ def question():
             print('我们一起去吃吧！')
             break
 
+            
 if __name__ == '__main__':
     question()
