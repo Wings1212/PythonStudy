@@ -38,7 +38,7 @@ class Student(MyClass):
 if __name__ == '__main__':
     student = Student('胡子鹏', 21)
     # 不能实例化抽象基类，继承于抽象基类的类必须重写其抽象方法要不也没法实例化
-    h = MyClass()
+    # h = MyClass()
     student.study()
     print("*" * 50)
     student.read()
