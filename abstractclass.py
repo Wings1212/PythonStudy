@@ -4,11 +4,11 @@ import webbrowser
 
 class MyClass(ABC):
     @abstractclassmethod
-    def study(cls, *args, **kwargs):
+    def study(self, *args, **kwargs):
         pass
 
     @abstractclassmethod
-    def read(cls, *args, **kwargs):
+    def read(self, *args, **kwargs):
         pass
 
 
